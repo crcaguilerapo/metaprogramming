@@ -1,0 +1,23 @@
+add logic
+${lastName=Aguilera, name=Cristian}
+Method: addPrefixA
+Method: addPrefixC
+Method: addPrefixD
+Method: addPrefixB
+ACDB
+LOG: before execute put
+LOG: after execute put
+LOG: before execute get
+LOG: after execute get
+LOG: before execute size
+LOG: after execute size
+1
+$Executing put finished in 37299 ns
+$Executing put finished in 21499 ns
+$Executing get finished in 37499 ns
+$Executing get finished in 27600 ns
+%Executing size finished in 29300 ns
+2
+1
+2
+3

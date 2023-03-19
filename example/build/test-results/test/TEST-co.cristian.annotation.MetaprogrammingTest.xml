@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.cristian.annotation.MetaprogrammingTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-03-16T23:44:26" hostname="DESKTOP-Q1VSEG7" time="0.069">
+  <properties/>
+  <testcase name="test1()" classname="co.cristian.annotation.MetaprogrammingTest" time="0.029"/>
+  <testcase name="test2()" classname="co.cristian.annotation.MetaprogrammingTest" time="0.003"/>
+  <testcase name="test3()" classname="co.cristian.annotation.MetaprogrammingTest" time="0.009"/>
+  <testcase name="test4()" classname="co.cristian.annotation.MetaprogrammingTest" time="0.009"/>
+  <testcase name="test5()" classname="co.cristian.annotation.MetaprogrammingTest" time="0.005"/>
+  <testcase name="test6()" classname="co.cristian.annotation.MetaprogrammingTest" time="0.004"/>
+  <system-out><![CDATA[add logic
+{lastName=Aguilera, name=Cristian}
+Method: addPrefixA
+Method: addPrefixC
+Method: addPrefixD
+Method: addPrefixB
+ACDB
+LOG: before execute put
+LOG: after execute put
+LOG: before execute get
+LOG: after execute get
+LOG: before execute size
+LOG: after execute size
+1
+Executing put finished in 37299 ns
+Executing put finished in 21499 ns
+Executing get finished in 37499 ns
+Executing get finished in 27600 ns
+Executing size finished in 29300 ns
+2
+1
+2
+3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
